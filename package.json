@@ -1,0 +1,71 @@
+{
+  "name": "memory-processing-toolbox",
+  "version": "1.0.0",
+  "description": "A toolbox for processing and analyzing conversation memories.",
+  "main": "src/scripts/index.js",
+  "type": "commonjs",
+  "_moduleAliases": {
+    "@": "src",
+    "@utils": "src/utils",
+    "@logger": "src/utils/logger.js",
+    "@config": "src/config.js",
+    "@conversations": "src/data/conversations.json",
+    "@scripts": "src/scripts",
+    "@modules": "src/modules",
+    "@errors": "src/utils/customErrors.js",
+    "@globals": "src/utils/globalVariables.js"
+  },
+  "scripts": {
+    "setup": "node src/scripts/setupProject.js",
+    "cli": "node src/scripts/index.js",
+    "start-webhook": "node src/webhook/webhookServer.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "memory",
+    "processing",
+    "toolbox",
+    "conversations",
+    "analytics"
+  ],
+  "author": "Your Name <youremail@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "async-retry": "^1.3.3",
+    "body-parser": "^1.19.0",
+    "boxen": "^8.0.1",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.2.0",
+    "fsls": "^0.0.9",
+    "fuse.js": "^7.0.0",
+    "inquirer": "^8.2.4",
+    "json2csv": "^5.0.7",
+    "lodash": "^4.17.21",
+    "lowline.ai": "^1.0.18",
+    "markdown-it": "^14.1.0",
+    "module-alias": "^2.2.3",
+    "natural": "^8.0.1",
+    "node-emoji": "^2.2.0",
+    "ora": "^5.4.1",
+    "prettyjson": "^1.2.5",
+    "print-dir": "^1.1.1",
+    "sentiment": "^5.0.2",
+    "uuid": "^11.0.5",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "prettier": "^2.7.1"
+  }
+}

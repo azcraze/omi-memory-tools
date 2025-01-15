@@ -1,0 +1,10 @@
+[2025-01-14 12:29:46] [ERROR] Failed to load JSON schema: ENOENT: no such file or directory, open '/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json'
+[2025-01-14 12:29:46] [ERROR] An error occurred in main: ENOENT: no such file or directory, open '/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json'
+[2025-01-14 12:31:02] [ERROR] Validation errors:
+[2025-01-14 12:31:02] [ERROR] Data validation failed. Exiting.
+[2025-01-14 12:33:00] [ERROR] Validation errors:
+[2025-01-14 12:33:00] [ERROR] Data validation failed. Exiting.
+[2025-01-14 12:36:38] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')
+[2025-01-14 12:40:07] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')
+[2025-01-14 12:44:54] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')
+[2025-01-14 12:46:16] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')

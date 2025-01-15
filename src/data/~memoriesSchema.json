@@ -1,0 +1,266 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Memories Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "format": "uuid",
+        "description": "Unique identifier for the conversation memory."
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Timestamp when the memory was created."
+      },
+      "structured": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Title of the conversation."
+          },
+          "overview": {
+            "type": "string",
+            "description": "Overview or summary of the conversation."
+          },
+          "emoji": {
+            "type": "string",
+            "description": "Emoji representing the conversation topic."
+          },
+          "category": {
+            "type": "string",
+            "description": "Category of the conversation (e.g., technology)."
+          },
+          "actionItems": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of action items derived from the conversation."
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "description": "Title of the event."
+                },
+                "starts_at": {
+                  "type": "string",
+                  "format": "date-time",
+                  "description": "Start time of the event."
+                },
+                "duration": {
+                  "type": "integer",
+                  "description": "Duration of the event in minutes."
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Detailed description of the event."
+                },
+                "created": {
+                  "type": "boolean",
+                  "description": "Flag indicating if the event was created."
+                }
+              },
+              "required": ["title", "starts_at", "duration", "description", "created"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "title",
+          "overview",
+          "emoji",
+          "category",
+          "actionItems",
+          "events"
+        ],
+        "additionalProperties": false
+      },
+      "started_at": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Timestamp when the conversation started."
+      },
+      "finished_at": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Timestamp when the conversation ended."
+      },
+      "transcript_segments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "Text of the transcript segment."
+            },
+            "speaker": {
+              "type": "string",
+              "description": "Identifier for the speaker (e.g., SPEAKER_1)."
+            },
+            "speaker_id": {
+              "type": "integer",
+              "description": "Numeric ID of the speaker."
+            },
+            "is_user": {
+              "type": "boolean",
+              "description": "Flag indicating if the speaker is a user."
+            },
+            "start": {
+              "type": "number",
+              "description": "Start time of the segment in seconds."
+            },
+            "end": {
+              "type": "number",
+              "description": "End time of the segment in seconds."
+            }
+          },
+          "required": ["text", "speaker", "speaker_id", "is_user", "start", "end"],
+          "additionalProperties": false
+        },
+        "description": "Array of transcript segments from the conversation."
+      },
+      "plugins_results": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "pluginId": {
+              "type": "string",
+              "description": "Identifier of the plugin used."
+            },
+            "content": {
+              "type": "string",
+              "description": "Content or result produced by the plugin."
+            }
+          },
+          "required": ["pluginId", "content"],
+          "additionalProperties": true
+        },
+        "description": "Results from various plugins associated with the conversation."
+      },
+      "geolocation": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number",
+                "description": "Latitude coordinate."
+              },
+              "longitude": {
+                "type": "number",
+                "description": "Longitude coordinate."
+              },
+              "altitude": {
+                "type": "number",
+                "description": "Altitude information."
+              },
+              "accuracy": {
+                "type": "number",
+                "description": "Accuracy of the geolocation data."
+              }
+            },
+            "required": ["latitude", "longitude"],
+            "additionalProperties": false
+          },
+          {
+            "type": "null",
+            "description": "No geolocation data available."
+          }
+        ],
+        "description": "Geolocation data associated with the conversation, if any."
+      },
+      "photos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL of the photo."
+            },
+            "description": {
+              "type": "string",
+              "description": "Description or metadata of the photo."
+            },
+            "timestamp": {
+              "type": "string",
+              "format": "date-time",
+              "description": "Timestamp when the photo was taken."
+            }
+          },
+          "required": ["url"],
+          "additionalProperties": false
+        },
+        "description": "Array of photos associated with the conversation."
+      },
+      "discarded": {
+        "type": "boolean",
+        "description": "Flag indicating if the memory has been discarded."
+      },
+      "deleted": {
+        "type": "boolean",
+        "description": "Flag indicating if the memory has been deleted."
+      },
+      "source": {
+        "type": "string",
+        "enum": ["ConversationSource.friend"],
+        "description": "Source of the conversation."
+      },
+      "language": {
+        "oneOf": [
+          {
+            "type": "string",
+            "description": "Language code of the conversation (e.g., en for English)."
+          },
+          {
+            "type": "null",
+            "description": "No language data available."
+          }
+        ]
+      },
+      "external_data": {
+        "oneOf": [
+          {
+            "type": "object",
+            "description": "External data associated with the conversation."
+          },
+          {
+            "type": "null",
+            "description": "No external data available."
+          }
+        ]
+      },
+      "status": {
+        "type": "string",
+        "description": "Current status of the conversation memory."
+      }
+    },
+    "required": [
+      "id",
+      "created_at",
+      "structured",
+      "started_at",
+      "finished_at",
+      "transcript_segments",
+      "plugins_results",
+      "discarded",
+      "deleted",
+      "source",
+      "language",
+      "status"
+    ],
+    "additionalProperties": true
+  },
+  "description": "Array of conversation memory objects."
+}

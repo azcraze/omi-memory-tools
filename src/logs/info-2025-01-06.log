@@ -1,0 +1,36 @@
+[2025-01-06 17:11:18] [INFO] Starting: Performing text analysis
+[2025-01-06 17:11:18] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-06 17:11:18] [INFO] runTextAnalysis: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-06 17:11:18] [INFO] runTextAnalysis: Successfully parsed filteredConversations.json.
+[2025-01-06 17:11:18] [INFO] Successfully compiled JSON schema for validation.
+[2025-01-06 17:11:18] [INFO] Validation complete: 215 valid, 0 invalid.
+[2025-01-06 17:11:18] [INFO] Filtering out discarded/deleted conversations...
+[2025-01-06 17:11:18] [INFO] Total: 215; Non-discarded/deleted: 215
+[2025-01-06 17:11:18] [INFO] runTextAnalysis: 215 active memories to analyze.
+[2025-01-06 17:11:18] [INFO] runTextAnalysis: Aggregated 16056 transcript segments from active memories.
+[2025-01-06 17:11:18] [INFO] getWordFrequency: Calculating 1-gram frequency.
+[2025-01-06 17:11:19] [INFO] getWordFrequency: Word frequency calculation completed.
+[2025-01-06 17:11:19] [INFO] runTextAnalysis: Word frequency calculation completed.
+[2025-01-06 17:11:19] [INFO] getKeywords: Extracting top 10 keywords.
+[2025-01-06 17:11:19] [INFO] getKeywords: Successfully extracted top 10 keywords.
+[2025-01-06 17:11:19] [INFO] runTextAnalysis: Top 10 keywords extracted.
+[2025-01-06 17:11:19] [INFO] runTextAnalysis: Ensured output directories for JSON and CSV.
+[2025-01-06 17:11:19] [INFO] runTextAnalysis: Text analysis results written to JSON: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/reports/textAnalysis.json
+[2025-01-06 17:11:19] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv.
+[2025-01-06 17:11:19] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv.
+[2025-01-06 17:11:19] [INFO] runTextAnalysis: Word frequency data written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv
+[2025-01-06 17:11:19] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv.
+[2025-01-06 17:11:19] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv.
+[2025-01-06 17:11:19] [INFO] runTextAnalysis: Top keywords data written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv
+[2025-01-06 17:11:19] [INFO] runTextAnalysis: Text analysis process completed successfully.
+[2025-01-06 17:11:19] [INFO] Completed: Performing text analysis
+[2025-01-06 17:11:19] [INFO] [1m[34mmainMenu: Displaying the main menu.[39m[22m
+[2025-01-06 17:12:51] [INFO] [36mmainMenu: User chose to exit the CLI.[39m
+[2025-01-06 17:44:17] [INFO] Test info log
+[2025-01-06 17:44:17] [ERROR] Test error log
+[2025-01-06 17:44:17] [WARN] Test warning log
+[2025-01-06 17:47:59] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-06 17:49:03] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-06 17:50:01] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-06 18:04:42] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-06 18:04:59] [INFO] runTextAnalysis: Starting text analysis process.

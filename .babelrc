@@ -1,0 +1,25 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@": "./src",
+          "@utils": "./src/utils",
+          "@logger": "./src/modules/logger.js",
+          "@config": "./src/config/config.js",
+          "@conversations": "./src/data/conversations.json",
+          "@components": "./src/components",
+          "@scripts": "./src/scripts",
+          "@webhook": "./src/webhook",
+          "@modules": "./src/modules",
+          "@errors": "./src/utils/customErrors.js",
+          "@globals": "./src/utils/globalVariables.js"
+        }
+      }
+    ]
+  ],
+  "extensions": [".js", ".jsx", ".ts", ".json"]
+}

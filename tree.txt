@@ -1,0 +1,93 @@
+ 
+ ├─┬ [1mlogs/[22m
+ │ ├── error.log
+ │ └── info.log
+ ├─┬ [1moutput/[22m
+ │ ├─┬ [1mcsv/[22m
+ │ │ ├── categoriesSummary.csv
+ │ │ ├── topKeywords.csv
+ │ │ ├── transcripts.csv
+ │ │ └── wordFrequency.csv
+ │ ├─┬ [1mmarkdown/[22m
+ │ │ ├── categoriesSummary.md
+ │ │ ├── consolidatedReport.md
+ │ │ └── transcripts.md
+ │ └─┬ [1mreports/[22m
+ │   ├── categoriesSummary.json
+ │   ├── invalidMemories.json
+ │   ├── pluginResponses.json
+ │   ├── textAnalysis.json
+ │   └── transcripts.json
+ ├── package-lock.json
+ ├── package.json
+ ├── tree.txt
+ ├─┬ [1msrc/[22m
+ │ ├── config.js
+ │ ├─┬ [1mdata/[22m
+ │ │ ├── conversations 2.json
+ │ │ ├── conversations-test.json
+ │ │ ├── conversations.json
+ │ │ ├── conversations3.json
+ │ │ ├── filteredConversations.json
+ │ │ ├── memoriesSchema.json
+ │ │ ├── output_part_1.txt
+ │ │ ├── output_part_2.txt
+ │ │ ├── text.txt
+ │ │ └── ~memoriesSchema.json
+ │ ├─┬ [1mlogs/[22m
+ │ │ ├── error-2025-01-04.log
+ │ │ ├── error-2025-01-06.log
+ │ │ ├── info-2025-01-04.log.gz
+ │ │ └── info-2025-01-06.log
+ │ ├─┬ [1mmodules/[22m
+ │ │ ├── extractCategories.js
+ │ │ ├── extractPluginResponses.js
+ │ │ ├── extractTranscriptSegments.js
+ │ │ ├── filterNonDiscarded.js
+ │ │ └── textAnalysis.js
+ │ ├─┬ [1moutput/[22m
+ │ │ ├─┬ [1mcsv/[22m
+ │ │ │ ├── categoriesSummary.csv
+ │ │ │ ├── pluginResponses.csv
+ │ │ │ └── transcripts.csv
+ │ │ ├─┬ [1mmarkdown/[22m
+ │ │ │ ├── categoriesSummary.md
+ │ │ │ ├── consolidatedReport.md
+ │ │ │ └── transcripts.md
+ │ │ ├─┬ [1mplugins/[22m
+ │ │ │ ├── 01JEP38S1HMN5YMJQWYKKVMCRZ.md
+ │ │ │ ├── 01JEYR1G4ZMG8W4806RNGVRBS2.md
+ │ │ │ ├── 01JEZC8MYAC69PH7QDC6HSMXN4.md
+ │ │ │ ├── 01JFCNTR2P5QV5QJJDAG7BYXRA.md
+ │ │ │ ├── 01JFMBSJPEWVB5BGSZXYFS7H4F.md
+ │ │ └─┬ [1mreports/[22m
+ │ │   ├── categoriesSummary.json
+ │ │   ├── invalidMemories.json
+ │ │   ├── pluginResponses.json
+ │ │   └── transcripts.json
+ │ ├─┬ [1mscripts/[22m
+ │ │ ├── index.js
+ │ │ ├── runExtractPlugins.js
+ │ │ ├── runExtractTranscripts.js
+ │ │ ├── runFiltering.js
+ │ │ ├── runTextAnalysis.js
+ │ │ ├── runValidationCheck.js
+ │ │ ├── runWriteCategories.js
+ │ │ ├── runWriteCsv.js
+ │ │ ├── runWriteMarkdown.js
+ │ │ ├── runWritePluginMarkdown.js
+ │ │ └── setupProject.js
+ │ ├─┬ [1mutils/[22m
+ │ │ ├── customErrors.js
+ │ │ ├── executeTask.js
+ │ │ ├── formatMarkdown.js
+ │ │ ├── globalVariables.js
+ │ │ ├── logger.js
+ │ │ ├── testLogger.js
+ │ │ ├── transformData.js
+ │ │ ├── verifyValidData.js
+ │ │ └── writeToCsv.js
+ │ └─┬ [1mwebhook/[22m
+ │   └── webhookServer.js
+ └── [1mtests/[22m
+

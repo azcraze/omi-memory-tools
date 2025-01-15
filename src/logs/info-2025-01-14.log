@@ -1,0 +1,219 @@
+[2025-01-14 10:19:35] [INFO] runExtractPlugins: Starting plugin extraction process.
+[2025-01-14 10:19:35] [INFO] runExtractPlugins: Ensured output directories at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports and /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv.
+[2025-01-14 10:19:35] [INFO] runExtractPlugins: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:19:35] [INFO] runExtractPlugins: Successfully parsed filteredConversations.json.
+[2025-01-14 10:19:35] [INFO] extractPluginResponses: Starting plugin responses extraction.
+[2025-01-14 10:19:35] [INFO] extractPluginResponses: Plugin responses extracted for 398 memories.
+[2025-01-14 10:19:35] [INFO] runExtractPlugins: Extracted plugin responses for 398 memories.
+[2025-01-14 10:19:35] [INFO] runExtractPlugins: Plugin responses written to JSON: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports/pluginResponses.json
+[2025-01-14 10:19:35] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv.
+[2025-01-14 10:19:36] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv.
+[2025-01-14 10:19:36] [INFO] runExtractPlugins: Plugin responses written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv
+[2025-01-14 10:19:36] [INFO] runExtractPlugins: Plugin extraction process completed successfully.
+[2025-01-14 10:19:36] [INFO] runExtractPlugins: Completed successfully.
+[2025-01-14 10:35:51] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-14 10:35:51] [INFO] [34mindex.js: Starting the CLI application.[39m
+[2025-01-14 10:35:51] [INFO] [1m[34mmainMenu: Displaying the main menu.[39m[22m
+[2025-01-14 10:36:57] [INFO] Starting: Filtering memories
+[2025-01-14 10:36:57] [INFO] Starting runFiltering...
+[2025-01-14 10:36:57] [INFO] Successfully read conversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 10:36:57] [INFO] Successfully parsed conversations.json
+[2025-01-14 10:36:57] [INFO] Filtering out discarded/deleted conversations...
+[2025-01-14 10:36:57] [INFO] Total: 1353; Non-discarded/deleted: 398
+[2025-01-14 10:36:57] [INFO] Filtered memories. Remaining memories: 398
+[2025-01-14 10:36:57] [INFO] Filtered memories written to: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json
+[2025-01-14 10:36:57] [INFO] Completed: Filtering memories
+[2025-01-14 10:36:57] [INFO] [1m[34mmainMenu: Displaying the main menu.[39m[22m
+[2025-01-14 10:37:27] [INFO] Starting: Performing text analysis
+[2025-01-14 10:37:27] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-14 10:37:27] [INFO] runTextAnalysis: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:37:27] [INFO] runTextAnalysis: Successfully parsed filteredConversations.json.
+[2025-01-14 10:37:27] [INFO] Successfully compiled JSON schema for validation.
+[2025-01-14 10:37:27] [INFO] Validation complete: 398 valid, 0 invalid.
+[2025-01-14 10:37:27] [INFO] Filtering out discarded/deleted conversations...
+[2025-01-14 10:37:27] [INFO] Total: 398; Non-discarded/deleted: 398
+[2025-01-14 10:37:27] [INFO] runTextAnalysis: 398 active memories to analyze.
+[2025-01-14 10:37:27] [INFO] runTextAnalysis: Aggregated 33802 transcript segments from active memories.
+[2025-01-14 10:37:27] [INFO] getWordFrequency: Calculating 2-gram frequency.
+[2025-01-14 10:37:28] [INFO] getWordFrequency: Word frequency calculation completed.
+[2025-01-14 10:37:28] [INFO] runTextAnalysis: Word frequency calculation completed.
+[2025-01-14 10:37:28] [INFO] runTextAnalysis: Top 10 keywords extracted.
+[2025-01-14 10:37:28] [INFO] runTextAnalysis: Ensured output directories for JSON and CSV.
+[2025-01-14 10:37:28] [INFO] runTextAnalysis: Text analysis results written to JSON: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/reports/textAnalysis.json
+[2025-01-14 10:37:28] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv.
+[2025-01-14 10:37:28] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv.
+[2025-01-14 10:37:28] [INFO] runTextAnalysis: Word frequency data written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv
+[2025-01-14 10:37:28] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv.
+[2025-01-14 10:37:28] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv.
+[2025-01-14 10:37:28] [INFO] runTextAnalysis: Top keywords data written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv
+[2025-01-14 10:37:28] [INFO] runTextAnalysis: Text analysis process completed successfully.
+[2025-01-14 10:37:28] [INFO] Completed: Performing text analysis
+[2025-01-14 10:37:28] [INFO] [1m[34mmainMenu: Displaying the main menu.[39m[22m
+[2025-01-14 10:37:41] [INFO] [33mrunAllTasks: Initiating the execution of all tasks in sequence.[39m
+[2025-01-14 10:37:41] [INFO] Starting: 1) Validating conversations
+[2025-01-14 10:37:41] [INFO] Starting runValidationCheck...
+[2025-01-14 10:37:41] [INFO] Successfully read conversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 10:37:41] [INFO] Successfully parsed conversations.json
+[2025-01-14 10:37:41] [INFO] Successfully compiled JSON schema for validation.
+[2025-01-14 10:37:41] [INFO] Validation complete: 1353 valid, 0 invalid.
+[2025-01-14 10:37:41] [INFO] Successfully validated memories.
+[2025-01-14 10:37:41] [INFO] All conversations are valid according to the schema.
+[2025-01-14 10:37:41] [INFO] Completed: 1) Validating conversations
+[2025-01-14 10:37:41] [INFO] Starting: 2) Filtering memories
+[2025-01-14 10:37:41] [INFO] Starting runFiltering...
+[2025-01-14 10:37:41] [INFO] Successfully read conversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 10:37:41] [INFO] Successfully parsed conversations.json
+[2025-01-14 10:37:41] [INFO] Filtering out discarded/deleted conversations...
+[2025-01-14 10:37:41] [INFO] Total: 1353; Non-discarded/deleted: 398
+[2025-01-14 10:37:41] [INFO] Filtered memories. Remaining memories: 398
+[2025-01-14 10:37:41] [INFO] Filtered memories written to: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json
+[2025-01-14 10:37:41] [INFO] Completed: 2) Filtering memories
+[2025-01-14 10:37:41] [INFO] Starting: 3) Extracting categories
+[2025-01-14 10:37:41] [INFO] runWriteCategories: Starting category summary writing process.
+[2025-01-14 10:37:41] [INFO] runWriteCategories: Ensured output directories at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/markdown, /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports, and /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv.
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Successfully parsed filteredConversations.json.
+[2025-01-14 10:37:42] [INFO] extractCategories: Starting category extraction.
+[2025-01-14 10:37:42] [INFO] extractCategories: Found 17 unique categories.
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Extracted categories summary for 17 categories.
+[2025-01-14 10:37:42] [INFO] formatCategoriesMarkdown: Starting formatting of categories into Markdown.
+[2025-01-14 10:37:42] [INFO] formatCategoriesMarkdown: Successfully formatted categories into Markdown.
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Successfully formatted categories to Markdown.
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Categories summary written to Markdown: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/markdown/categoriesSummary.md
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Categories summary written to JSON: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports/categoriesSummary.json
+[2025-01-14 10:37:42] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/categoriesSummary.csv.
+[2025-01-14 10:37:42] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/categoriesSummary.csv.
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Categories summary written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/categoriesSummary.csv
+[2025-01-14 10:37:42] [INFO] runWriteCategories: Category summary writing process completed successfully.
+[2025-01-14 10:37:42] [INFO] Completed: 3) Extracting categories
+[2025-01-14 10:37:42] [INFO] Starting: 4) Extracting transcripts
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Starting transcript extraction process.
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Ensured output directories at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/markdown, /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports, and /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv.
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Successfully parsed filteredConversations.json.
+[2025-01-14 10:37:42] [INFO] extractTranscriptSegments: Starting transcript segments extraction.
+[2025-01-14 10:37:42] [INFO] extractTranscriptSegments: Transcript segments extracted for 398 memories.
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Extracted transcript segments for 398 memories.
+[2025-01-14 10:37:42] [INFO] formatTranscriptMarkdown: Starting formatting of transcripts into Markdown.
+[2025-01-14 10:37:42] [INFO] formatTranscriptMarkdown: Successfully formatted transcripts into Markdown.
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Successfully formatted transcripts to Markdown.
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Transcripts written to Markdown: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/markdown/transcripts.md
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Transcripts written to JSON: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports/transcripts.json
+[2025-01-14 10:37:42] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/transcripts.csv.
+[2025-01-14 10:37:42] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/transcripts.csv.
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Transcripts written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/transcripts.csv
+[2025-01-14 10:37:42] [INFO] runExtractTranscripts: Transcript extraction process completed successfully.
+[2025-01-14 10:37:42] [INFO] Completed: 4) Extracting transcripts
+[2025-01-14 10:37:42] [INFO] Starting: 5) Performing text analysis
+[2025-01-14 10:37:42] [INFO] runTextAnalysis: Starting text analysis process.
+[2025-01-14 10:37:42] [INFO] runTextAnalysis: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:37:42] [INFO] runTextAnalysis: Successfully parsed filteredConversations.json.
+[2025-01-14 10:37:42] [INFO] Successfully compiled JSON schema for validation.
+[2025-01-14 10:37:42] [INFO] Validation complete: 398 valid, 0 invalid.
+[2025-01-14 10:37:42] [INFO] Filtering out discarded/deleted conversations...
+[2025-01-14 10:37:42] [INFO] Total: 398; Non-discarded/deleted: 398
+[2025-01-14 10:37:42] [INFO] runTextAnalysis: 398 active memories to analyze.
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Aggregated 33802 transcript segments from active memories.
+[2025-01-14 10:37:43] [INFO] getWordFrequency: Calculating 2-gram frequency.
+[2025-01-14 10:37:43] [INFO] getWordFrequency: Word frequency calculation completed.
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Word frequency calculation completed.
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Top 10 keywords extracted.
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Ensured output directories for JSON and CSV.
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Text analysis results written to JSON: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/reports/textAnalysis.json
+[2025-01-14 10:37:43] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv.
+[2025-01-14 10:37:43] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv.
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Word frequency data written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/wordFrequency.csv
+[2025-01-14 10:37:43] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv.
+[2025-01-14 10:37:43] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv.
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Top keywords data written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/output/csv/topKeywords.csv
+[2025-01-14 10:37:43] [INFO] runTextAnalysis: Text analysis process completed successfully.
+[2025-01-14 10:37:43] [INFO] Completed: 5) Performing text analysis
+[2025-01-14 10:37:43] [INFO] Starting: 6) Extracting plugin responses
+[2025-01-14 10:37:43] [INFO] runExtractPlugins: Starting plugin extraction process.
+[2025-01-14 10:37:43] [INFO] runExtractPlugins: Ensured output directories at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports and /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv.
+[2025-01-14 10:37:43] [INFO] runExtractPlugins: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:37:43] [INFO] runExtractPlugins: Successfully parsed filteredConversations.json.
+[2025-01-14 10:37:43] [INFO] extractPluginResponses: Starting plugin responses extraction.
+[2025-01-14 10:37:43] [INFO] extractPluginResponses: Plugin responses extracted for 398 memories.
+[2025-01-14 10:37:43] [INFO] runExtractPlugins: Extracted plugin responses for 398 memories.
+[2025-01-14 10:37:44] [INFO] runExtractPlugins: Plugin responses written to JSON: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/reports/pluginResponses.json
+[2025-01-14 10:37:44] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv.
+[2025-01-14 10:37:44] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv.
+[2025-01-14 10:37:44] [INFO] runExtractPlugins: Plugin responses written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv
+[2025-01-14 10:37:44] [INFO] runExtractPlugins: Plugin extraction process completed successfully.
+[2025-01-14 10:37:44] [INFO] Completed: 6) Extracting plugin responses
+[2025-01-14 10:37:44] [INFO] Starting: 7) Writing Markdown outputs
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Starting Markdown report writing process.
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Ensured Markdown output directory at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/markdown.
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Successfully parsed filteredConversations.json.
+[2025-01-14 10:37:44] [INFO] extractCategories: Starting category extraction.
+[2025-01-14 10:37:44] [INFO] extractCategories: Found 17 unique categories.
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Extracted categories summary for 17 categories.
+[2025-01-14 10:37:44] [INFO] extractTranscriptSegments: Starting transcript segments extraction.
+[2025-01-14 10:37:44] [INFO] extractTranscriptSegments: Transcript segments extracted for 398 memories.
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Extracted transcript segments for 398 memories.
+[2025-01-14 10:37:44] [INFO] extractPluginResponses: Starting plugin responses extraction.
+[2025-01-14 10:37:44] [INFO] extractPluginResponses: Plugin responses extracted for 398 memories.
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Extracted plugin responses for 398 memories.
+[2025-01-14 10:37:44] [INFO] formatCategoriesMarkdown: Starting formatting of categories into Markdown.
+[2025-01-14 10:37:44] [INFO] formatCategoriesMarkdown: Successfully formatted categories into Markdown.
+[2025-01-14 10:37:44] [INFO] formatTranscriptMarkdown: Starting formatting of transcripts into Markdown.
+[2025-01-14 10:37:44] [INFO] formatTranscriptMarkdown: Successfully formatted transcripts into Markdown.
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Consolidated Markdown report written to: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/markdown/consolidatedReport.md
+[2025-01-14 10:37:44] [INFO] runWriteMarkdown: Markdown report writing process completed successfully.
+[2025-01-14 10:37:44] [INFO] Completed: 7) Writing Markdown outputs
+[2025-01-14 10:37:44] [INFO] Starting: 8) Writing CSV outputs
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Starting CSV writing process.
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Ensured CSV output directory at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv.
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Successfully read filteredConversations.json from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json.
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Successfully parsed filteredConversations.json.
+[2025-01-14 10:37:44] [INFO] extractCategories: Starting category extraction.
+[2025-01-14 10:37:44] [INFO] extractCategories: Found 17 unique categories.
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Extracted categories summary for 17 categories.
+[2025-01-14 10:37:44] [INFO] extractTranscriptSegments: Starting transcript segments extraction.
+[2025-01-14 10:37:44] [INFO] extractTranscriptSegments: Transcript segments extracted for 398 memories.
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Extracted transcript segments for 398 memories.
+[2025-01-14 10:37:44] [INFO] extractPluginResponses: Starting plugin responses extraction.
+[2025-01-14 10:37:44] [INFO] extractPluginResponses: Plugin responses extracted for 398 memories.
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Extracted plugin responses for 398 memories.
+[2025-01-14 10:37:44] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/categoriesSummary.csv.
+[2025-01-14 10:37:44] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/categoriesSummary.csv.
+[2025-01-14 10:37:44] [INFO] runWriteCsv: Categories summary written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/categoriesSummary.csv
+[2025-01-14 10:37:44] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/transcripts.csv.
+[2025-01-14 10:37:45] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/transcripts.csv.
+[2025-01-14 10:37:45] [INFO] runWriteCsv: Transcripts written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/transcripts.csv
+[2025-01-14 10:37:45] [INFO] writeJsonToCsv: Starting CSV writing for file /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv.
+[2025-01-14 10:37:45] [INFO] writeJsonToCsv: CSV file written successfully at /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv.
+[2025-01-14 10:37:45] [INFO] runWriteCsv: Plugin responses written to CSV: /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/output/csv/pluginResponses.csv
+[2025-01-14 10:37:45] [INFO] runWriteCsv: CSV writing process completed successfully.
+[2025-01-14 10:37:45] [INFO] Completed: 8) Writing CSV outputs
+[2025-01-14 10:37:45] [INFO] [35mrunAllTasks: All tasks completed successfully![39m
+[2025-01-14 10:37:45] [INFO] [1m[34mmainMenu: Displaying the main menu.[39m[22m
+[2025-01-14 10:37:47] [INFO] [36mmainMenu: User chose to exit the CLI.[39m
+[2025-01-14 12:29:46] [ERROR] Failed to load JSON schema: ENOENT: no such file or directory, open '/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json'
+[2025-01-14 12:29:46] [ERROR] An error occurred in main: ENOENT: no such file or directory, open '/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json'
+[2025-01-14 12:31:02] [INFO] Successfully loaded JSON schema from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json
+[2025-01-14 12:31:02] [INFO] Successfully read JSON from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 12:31:02] [ERROR] Validation errors:
+[2025-01-14 12:31:02] [ERROR] Data validation failed. Exiting.
+[2025-01-14 12:33:00] [INFO] Successfully loaded JSON schema from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json
+[2025-01-14 12:33:00] [INFO] Successfully read JSON from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 12:33:00] [ERROR] Validation errors:
+[2025-01-14 12:33:00] [ERROR] Data validation failed. Exiting.
+[2025-01-14 12:36:38] [INFO] Successfully loaded JSON schema from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json
+[2025-01-14 12:36:38] [INFO] Successfully read JSON from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 12:36:38] [INFO] Data validation successful.
+[2025-01-14 12:36:38] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')
+[2025-01-14 12:40:06] [INFO] Successfully loaded JSON schema from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json
+[2025-01-14 12:40:07] [INFO] Successfully read JSON from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 12:40:07] [INFO] Data validation successful.
+[2025-01-14 12:40:07] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')
+[2025-01-14 12:44:54] [INFO] Successfully loaded JSON schema from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json
+[2025-01-14 12:44:54] [INFO] Successfully read JSON from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 12:44:54] [INFO] Data validation successful.
+[2025-01-14 12:44:54] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')
+[2025-01-14 12:46:16] [INFO] Successfully loaded JSON schema from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/schemas/memorySchema.json
+[2025-01-14 12:46:16] [INFO] Successfully read JSON from /Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/conversations.json
+[2025-01-14 12:46:16] [INFO] Data validation successful.
+[2025-01-14 12:46:16] [ERROR] An error occurred in main: Cannot read properties of undefined (reading 'json')

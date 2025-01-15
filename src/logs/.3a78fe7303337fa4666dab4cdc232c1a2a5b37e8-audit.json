@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/logs/.3a78fe7303337fa4666dab4cdc232c1a2a5b37e8-audit.json",
+    "files": [
+        {
+            "date": 1736005518162,
+            "name": "/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/logs/info-2025-01-04.log",
+            "hash": "252c052f5976a3f3bded2172fbfa3defbc50e03eab3e09b7d1e2be14549e3af9"
+        },
+        {
+            "date": 1736205078829,
+            "name": "/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/logs/info-2025-01-06.log",
+            "hash": "9f4944726f9afc21f111dc8dce04e9065364935408a505076f0f006c25dde563"
+        },
+        {
+            "date": 1736524307976,
+            "name": "/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/logs/info-2025-01-10.log",
+            "hash": "ed6357ec1475c9a3468ab18434016e98e5534b0ac835f5dc35dae74c105e383f"
+        },
+        {
+            "date": 1736645123198,
+            "name": "/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/logs/info-2025-01-11.log",
+            "hash": "e956f7e16c3e046348b7b707869fbf2d9a94f3f3f0d552aa546dd221987c60b5"
+        },
+        {
+            "date": 1736871519891,
+            "name": "/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/logs/info-2025-01-14.log",
+            "hash": "850161beb1159018ef2dc282a833e1f83bc197a07e1572936ac91dd971da7d0b"
+        }
+    ],
+    "hashType": "sha256"
+}
