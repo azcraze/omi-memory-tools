@@ -1,0 +1,19 @@
+[2025-01-03T05:27:11.750Z] [ERROR] runValidationCheck failed: unknown format "uuid" ignored in schema at path "#/items/properties/id"
+[2025-01-03T05:27:11.750Z] [ERROR] runAllTasks failed: unknown format "uuid" ignored in schema at path "#/items/properties/id"
+[2025-01-03T05:27:11.750Z] [ERROR] Failed: 1) Validating conversations
+[2025-01-03T05:27:20.229Z] [ERROR] runAllTasks failed: unknown format "uuid" ignored in schema at path "#/items/properties/id"
+[2025-01-03T05:27:20.229Z] [ERROR] runValidationCheck failed: unknown format "uuid" ignored in schema at path "#/items/properties/id"
+[2025-01-03T05:27:20.229Z] [ERROR] Failed: 1) Validating conversations
+[2025-01-03T05:38:26.218Z] [ERROR] runValidationCheck failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T05:38:26.218Z] [ERROR] Failed: 1) Validating conversations
+[2025-01-03T05:38:26.218Z] [ERROR] runAllTasks failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T05:38:26.235Z] [ERROR] runValidationCheck failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T05:38:26.235Z] [ERROR] Failed: 1) Validating conversations
+[2025-01-03T05:38:26.235Z] [ERROR] runAllTasks failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T06:18:17.637Z] [ERROR] runAllTasks failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T06:18:17.637Z] [ERROR] runValidationCheck failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T06:18:17.637Z] [ERROR] Failed: 1) Validating conversations
+[2025-01-03T06:18:17.664Z] [ERROR] runValidationCheck failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T06:18:17.664Z] [ERROR] runAllTasks failed: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-03T06:18:17.664Z] [ERROR] Failed: 1) Validating conversations
+[2025-01-04T15:38:31.659Z] [ERROR] Test error log

@@ -1,0 +1,87 @@
+[
+  {
+    "category": "other",
+    "count": 29,
+    "emoji": "❓"
+  },
+  {
+    "category": "politics",
+    "count": 38,
+    "emoji": "❓"
+  },
+  {
+    "category": "philosophy",
+    "count": 40,
+    "emoji": "❓"
+  },
+  {
+    "category": "personal",
+    "count": 91,
+    "emoji": "❓"
+  },
+  {
+    "category": "work",
+    "count": 10,
+    "emoji": "❓"
+  },
+  {
+    "category": "social",
+    "count": 85,
+    "emoji": "❓"
+  },
+  {
+    "category": "health",
+    "count": 8,
+    "emoji": "❓"
+  },
+  {
+    "category": "history",
+    "count": 5,
+    "emoji": "❓"
+  },
+  {
+    "category": "literature",
+    "count": 8,
+    "emoji": "❓"
+  },
+  {
+    "category": "education",
+    "count": 8,
+    "emoji": "❓"
+  },
+  {
+    "category": "finance",
+    "count": 4,
+    "emoji": "❓"
+  },
+  {
+    "category": "legal",
+    "count": 2,
+    "emoji": "❓"
+  },
+  {
+    "category": "technology",
+    "count": 35,
+    "emoji": "❓"
+  },
+  {
+    "category": "romantic",
+    "count": 25,
+    "emoji": "❓"
+  },
+  {
+    "category": "business",
+    "count": 2,
+    "emoji": "❓"
+  },
+  {
+    "category": "science",
+    "count": 5,
+    "emoji": "❓"
+  },
+  {
+    "category": "inspiration",
+    "count": 3,
+    "emoji": "❓"
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Array of Conversation Objects",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "structured": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "overview": {
+            "type": "string"
+          },
+          "emoji": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "actionItems": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "startsAt": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "duration": {
+                  "type": "number"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      },
+      "started_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "finished_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "transcript_segments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "speaker": {
+              "type": "string"
+            },
+            "speaker_id": {
+              "type": "integer"
+            },
+            "is_user": {
+              "type": "boolean"
+            },
+            "start": {
+              "type": "number"
+            },
+            "end": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "plugins_results": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "pluginId": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "geolocation": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object"
+          }
+        ]
+      },
+      "photos": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "discarded": {
+        "type": "boolean"
+      },
+      "deleted": {
+        "type": "boolean"
+      },
+      "source": {
+        "type": "string"
+      },
+      "language": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "external_data": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object"
+          }
+        ]
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "required": ["id", "created_at", "structured", "started_at", "finished_at", "transcript_segments", "plugins_results", "geolocation", "photos", "discarded", "deleted", "source", "language", "external_data", "status"],
+    "additionalProperties": true
+  }
+}

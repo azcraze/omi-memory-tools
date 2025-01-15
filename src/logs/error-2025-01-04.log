@@ -1,0 +1,5 @@
+[2025-01-04 09:53:07] [ERROR] runValidationCheck encountered an error: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-04 09:53:36] [ERROR] runValidationCheck encountered an error: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-04 09:57:18] [ERROR] runValidationCheck encountered an error: Some memories failed validation. Check invalidMemories.json for details.
+[2025-01-04 10:22:27] [ERROR] runWriteCategories: Failed to read filteredConversations.json: ENOENT: no such file or directory, open '/Users/ventura/Library/Mobile Documents/iCloud~dk~simonbs~Jayson/Documents/Omi/memory-processing-toolbox/src/data/filteredConversations.json'
+[2025-01-04 21:08:43] [ERROR] runTextAnalysis: Process failed - defaultStopwords is not defined
